@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { QueenComponenteComponent } from './queen-componente/queen-componente.component';
+import { InterpolacionComponent } from './interpolacion/interpolacion.component';
+import { OneWayBindingComponent } from './one-way-binding/one-way-binding.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    QueenComponenteComponent,
+    InterpolacionComponent,
+    OneWayBindingComponent
   ],
   imports: [
     BrowserModule,
